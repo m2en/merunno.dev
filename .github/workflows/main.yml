@@ -21,5 +21,3 @@ jobs:
         run: yarn format
       - name: Check diff
         run: git diff --exit-code
-      - name: Run test
-        run: yarn test
