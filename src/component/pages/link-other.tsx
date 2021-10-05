@@ -22,15 +22,17 @@ export default function linkOther() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <u>GitHub</u>・
+            <u>GitHub</u>
           </a>
+          ・
           <a
             href="https://twitter.com/merunno"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <u>Twitter</u>・
+            <u>Twitter</u>
           </a>
+          ・
           <a
             href="https://keybase.io/merunno"
             target="_blank"
