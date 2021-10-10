@@ -8,7 +8,7 @@ export default function linkOther() {
         <div className={LoCss.cotent}>連絡</div>
         <div className={LoCss.link}>
           <p>連絡はこちらまでよろしくお願いします。</p>
-          <p>(Discord DMなどはフレンド以外切ってます。ご了承おねがいでしゅ.)</p>
+          <p>(Discord DMなどはフレンド以外切ってます。)</p>
           <u>me@merunno.dev</u>
         </div>
         <div className={LoCss.cotent}>ソースコード等</div>
@@ -37,6 +37,14 @@ export default function linkOther() {
             rel="noopener noreferrer"
           >
             <u>Twitter</u>
+          </a>
+          ・
+          <a
+            href="https://twitter.com/_meru92_"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <u>Twitter(鍵)</u>
           </a>
           ・
           <a
