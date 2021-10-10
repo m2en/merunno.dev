@@ -59,6 +59,34 @@ export default function about() {
             JetBrains IDE. GitHub, Git, Markdownなど
           </AccordionPanel>
         </AccordionItem>
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box flex="1" textAlign="left">
+                運営参加
+              </Box>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel pb={4}>
+            <a
+              href="https://twitter.com/BFJ_GG"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <u>Battlefield Japan Community: </u>
+            </a>
+            運営・開発者
+            <a
+              href="https://twitter.com/AzisabaNetwork"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <u>アジ鯖: </u>
+            </a>
+            開発協力者・運営
+          </AccordionPanel>
+        </AccordionItem>
       </Accordion>
     </main>
   )
