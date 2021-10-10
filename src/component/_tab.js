@@ -18,6 +18,8 @@ export default function _tab() {
             <About />
           </TabPanel>
           <TabPanel>
+            <div className={CSS.cotent}>リンク・自己紹介の追加- 2021/10/10</div>
+            <p>新たに裏垢リンク・運営参加などの自己紹介を追加しました。</p>
             <div className={CSS.cotent}>更新を行いました。 - 2021/10/05</div>
             <p>更新を行いました。ちょっとした変更です。</p>
           </TabPanel>
