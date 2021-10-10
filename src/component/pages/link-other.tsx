@@ -18,7 +18,7 @@ export default function linkOther() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <u>リポジトリ</u>
+            <u>リポジトリ(merunno/merunno.dev)</u>
           </a>
         </div>
         <div className={LoCss.cotent}>リンク集</div>
