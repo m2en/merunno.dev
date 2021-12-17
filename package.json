@@ -14,7 +14,7 @@
   "dependencies": {
     "@chakra-ui/icons": "1.0.17",
     "@chakra-ui/react": "1.6.12",
-    "@emotion/react": "11.7.0",
+    "@emotion/react": "11.7.1",
     "@emotion/styled": "11.6.0",
     "@mui/icons-material": "5.2.0",
     "framer-motion": "5.3.3",
