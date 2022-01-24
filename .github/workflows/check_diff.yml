@@ -1,4 +1,4 @@
-name: merunno.dev / Check diff
+name: merunno.dev / check diff
 
 on: pull_request
 
