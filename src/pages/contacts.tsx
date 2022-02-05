@@ -83,10 +83,7 @@ export default function Contacts() {
 
                 {/* 公開鍵ファイルのダウンロード */}
                 <Circle w="100%" h="50px">
-                  <a
-                    href="../../public/pgp/merunno.asc"
-                    download={'merunno.asc'}
-                  >
+                  <a href="/pgp/merunno.asc">
                     <Stack direction={'row'} spacing={4}>
                       <Button colorScheme={'pink'} variant={'outline'}>
                         merunno.pub
