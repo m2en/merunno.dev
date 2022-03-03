@@ -8,14 +8,12 @@
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],
-      "groupName": "devDependencies",
-      "rangeStrategy": "update-lockfile"
+      "groupName": "devDependencies"
     },
     {
       "matchDepTypes": ["dependencies"],
       "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "dependencies (non-major)",
-      "rangeStrategy": "pin"
+      "groupName": "dependencies (non-major)"
     }
   ]
 }
