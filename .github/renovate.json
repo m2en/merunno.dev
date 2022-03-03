@@ -1,6 +1,10 @@
 {
-  "extends": ["config:base"],
-  "labels": ["dependencies", "renovatePR"],
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", ":timezone(Asia/Tokyo)"],
+  "labels": ["dependencies"],
+  "schedule": ["after 10pm and before 5am every weekend"],
+  "dependencyDashboard": true,
+  "automerge": true,
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],
@@ -13,10 +17,5 @@
       "groupName": "dependencies (non-major)",
       "rangeStrategy": "pin"
     }
-  ],
-  "timezone": "Asia/Tokyo",
-  "schedule": ["after 10pm and before 5am every weekend"],
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "automerge": true,
-  "dependencyDashboard": true
+  ]
 }
