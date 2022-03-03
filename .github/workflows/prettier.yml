@@ -1,6 +1,14 @@
-name: merunno.dev / prettier
+name: prettier
 
-on: pull_request
+on:
+  push:
+    branches:
+      - master
+      - develop
+  pull_request:
+    branches:
+      - master
+      - develop
 
 jobs:
   run_eslint:
