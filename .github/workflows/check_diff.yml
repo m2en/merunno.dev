@@ -1,6 +1,14 @@
-name: merunno.dev / check diff
+name: check diff
 
-on: pull_request
+on:
+  push:
+    branches:
+      - master
+      - develop
+  pull_request:
+    branches:
+      - master
+      - develop
 
 jobs:
   format:
