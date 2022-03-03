@@ -3,10 +3,6 @@
   "labels": ["dependencies", "renovatePR"],
   "packageRules": [
     {
-      "depTypeList": ["devDependencies"],
-      "automerge": true
-    },
-    {
       "matchDepTypes": ["devDependencies"],
       "groupName": "devDependencies",
       "rangeStrategy": "update-lockfile"
