@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Center, Circle, Text } from '@chakra-ui/react';
+import { Box, Center, Text } from '@chakra-ui/react';
 
 import AboutMeCSS from '../styles/about_me.module.css';
 import introductionCSS from '../styles/introduction.module.css';
@@ -23,18 +23,16 @@ export default function About() {
         />
       </Head>
 
-      <div className={'title'}>
-        <Circle w="100%" h="100px">
-          <Text
-            bgGradient="linear(to-l, #FFBAFC, #A3D7FF)"
-            bgClip="text"
-            fontSize="3xl"
-            fontWeight="extrabold"
-          >
-            自己紹介
-          </Text>
-        </Circle>
-      </div>
+      <Center>
+        <Text
+          bgGradient="linear(to-l, #FFBAFC, #A3D7FF)"
+          bgClip="text"
+          fontSize="3xl"
+          fontWeight="extrabold"
+        >
+          自己紹介
+        </Text>
+      </Center>
 
       {/* TODO: もっといい方法で書き直す。: https://github.com/merunno/merunno.dev/issues/84 */}
       <div className={introductionCSS.main}>
@@ -65,7 +63,7 @@ export default function About() {
         </div>
       </div>
 
-      <Center h={'200px'}>
+      <Center>
         <BackButton />
       </Center>
     </Box>

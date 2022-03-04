@@ -6,7 +6,7 @@ export default function NotFound() {
   return (
     <main>
       <div>
-        <Center h={'100px'}>
+        <Center>
           <Text
             bgGradient="linear(to-l, #FF1312, #FF2F6B)"
             bgClip="text"
@@ -17,7 +17,7 @@ export default function NotFound() {
           </Text>
         </Center>
 
-        <Center h={'200px'}>
+        <Center>
           <BackButton />
         </Center>
       </div>
