@@ -24,7 +24,7 @@ export default function About() {
       </Head>
 
       <div className={'title'}>
-        <Center w="100%" h="100px">
+        <Center>
           <Text
             bgGradient="linear(to-l, #FFBAFC, #A3D7FF)"
             bgClip="text"
@@ -65,7 +65,7 @@ export default function About() {
         </div>
       </div>
 
-      <Center h={'200px'}>
+      <Center>
         <BackButton />
       </Center>
     </Box>
