@@ -23,18 +23,16 @@ export default function About() {
         />
       </Head>
 
-      <div className={'title'}>
-        <Center>
-          <Text
-            bgGradient="linear(to-l, #FFBAFC, #A3D7FF)"
-            bgClip="text"
-            fontSize="3xl"
-            fontWeight="extrabold"
-          >
-            自己紹介
-          </Text>
-        </Center>
-      </div>
+      <Center>
+        <Text
+          bgGradient="linear(to-l, #FFBAFC, #A3D7FF)"
+          bgClip="text"
+          fontSize="3xl"
+          fontWeight="extrabold"
+        >
+          自己紹介
+        </Text>
+      </Center>
 
       {/* TODO: もっといい方法で書き直す。: https://github.com/merunno/merunno.dev/issues/84 */}
       <div className={introductionCSS.main}>

@@ -4,21 +4,17 @@ import Link from 'next/link';
 
 export default function ButtonC() {
   return (
-    <main>
-      <div>
-        <Center>
-          <Link href="/about_me">
-            <Button colorScheme="teal" variant="ghost">
-              About me
-            </Button>
-          </Link>
-          <Link href="/contacts">
-            <Button colorScheme="teal" variant="ghost">
-              Contacts
-            </Button>
-          </Link>
-        </Center>
-      </div>
-    </main>
+    <Center>
+      <Link href="/about_me">
+        <Button colorScheme="teal" variant="ghost">
+          About me
+        </Button>
+      </Link>
+      <Link href="/contacts">
+        <Button colorScheme="teal" variant="ghost">
+          Contacts
+        </Button>
+      </Link>
+    </Center>
   );
 }
