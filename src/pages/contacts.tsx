@@ -1,4 +1,4 @@
-import { Box, Button, Circle, HStack, Stack, Text } from '@chakra-ui/react';
+import { Box, Button, Center, HStack, Stack, Text } from '@chakra-ui/react';
 import React from 'react';
 import Head from 'next/head';
 
@@ -28,7 +28,7 @@ export default function Contacts() {
 
       <div>
         <div className={'title'}>
-          <Circle w="100%" h="100px">
+          <Center w="100%" h="100px">
             <Text
               bgGradient="linear(to-l, #FFBAFC, #A3D7FF)"
               bgClip="text"
@@ -37,11 +37,11 @@ export default function Contacts() {
             >
               連絡(リンク)
             </Text>
-          </Circle>
+          </Center>
         </div>
 
         <div className={'SNS'}>
-          <Circle w="100%" h="50px">
+          <Center w="100%" h="50px">
             <HStack>
               <a
                 href="https://github.com/merunno"
@@ -71,18 +71,18 @@ export default function Contacts() {
                 </Button>
               </a>
             </HStack>
-          </Circle>
+          </Center>
         </div>
 
         <div className={'pgp'}>
-          <Circle w={'100%'} h={'150px'}>
+          <Center w={'100%'} h={'150px'}>
             <div className={introductionCSS.main}>
               <div className={AboutMeCSS.Title}>
                 <div className={AboutMeCSS.content}>かわいいGPG鍵</div>
                 <p>KeyBase・GitHub Profileで公開</p>
 
                 {/* 公開鍵ファイルのダウンロード */}
-                <Circle w="100%" h="50px">
+                <Center w="100%" h="50px">
                   <a href="/pgp/merunno.asc">
                     <Stack direction={'row'} spacing={4}>
                       <Button colorScheme={'pink'} variant={'outline'}>
@@ -90,27 +90,27 @@ export default function Contacts() {
                       </Button>
                     </Stack>
                   </a>
-                </Circle>
+                </Center>
               </div>
             </div>
-          </Circle>
+          </Center>
         </div>
 
         <div className={'mail'}>
-          <Circle w={'100%'} h={'150px'}>
+          <Center w={'100%'} h={'150px'}>
             <div className={introductionCSS.main}>
               <div className={AboutMeCSS.Title}>
                 <div className={AboutMeCSS.content}>メール</div>
                 <p>me@merunno.dev</p>
               </div>
             </div>
-          </Circle>
+          </Center>
         </div>
 
         <div className={'back'}>
-          <Circle w={'100%'} h={'200px'}>
+          <Center w={'100%'} h={'200px'}>
             <BackButton />
-          </Circle>
+          </Center>
         </div>
       </div>
     </Box>
