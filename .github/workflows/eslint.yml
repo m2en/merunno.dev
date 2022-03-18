@@ -2,13 +2,7 @@ name: eslint
 
 on:
   push:
-    branches:
-      - master
-      - develop
   pull_request:
-    branches:
-      - master
-      - develop
 
 jobs:
   run_eslint:
