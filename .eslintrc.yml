@@ -17,3 +17,5 @@ plugins:
   - react
   - '@typescript-eslint'
 rules: {}
+ignorePatterns:
+  - next.config.js
