@@ -2,6 +2,7 @@ import { AppProps } from 'next/app';
 import Head from 'next/head';
 
 import './index.css';
+import { ChakraProvider } from '@chakra-ui/react';
 
 const App = ({ Component, pageProps }: AppProps) => (
   <>
@@ -13,14 +14,14 @@ const App = ({ Component, pageProps }: AppProps) => (
 
       <title>merunno.dev</title>
 
-      <link rel={'icon'} href={'../../public/favicon.ico'} />
-
       <meta name={'name'} content={'merunno.dev'} />
       <meta property={'og:title'} content={'merunno.dev'} />
       <meta property="og:locale" content="ja_JP" />
     </Head>
 
-    <Component {...pageProps} />
+    <ChakraProvider>
+      <Component {...pageProps} />
+    </ChakraProvider>
   </>
 );
 
