@@ -26,8 +26,9 @@
   "dependencies": {
     "@chakra-ui/icons": "1.1.7",
     "@chakra-ui/react": "1.8.6",
-    "@emotion/react": "11.8.2",
-    "@emotion/styled": "11.8.1",
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.5.3",
     "@typescript-eslint/eslint-plugin": "5.15.0",
     "@typescript-eslint/parser": "5.15.0",
     "esl": "10.0.0",
