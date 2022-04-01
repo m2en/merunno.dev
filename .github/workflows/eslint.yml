@@ -3,9 +3,6 @@ name: eslint
 on:
   push:
   pull_request:
-    paths-ignore:
-      - '**.md',
-      - '.github/workflows/*.yml',
 
 jobs:
   run_eslint:
