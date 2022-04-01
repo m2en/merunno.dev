@@ -1,0 +1,6 @@
+workflows:
+  - .github/workflows/*.yml
+
+enhancement:
+  - src/pages/*.tsx
+  - styles/*.css

@@ -1,9 +1,9 @@
 module.exports = {
   reactStrictMode: true,
   eslint: {
-    dirs: ['src/components/', 'src/lib/', 'src/pages/'],
+    dirs: ['src/components/', 'src/pages/']
   },
   images: {
-    domains: ['github.com'],
-  },
-}
+    domains: ['github.com']
+  }
+};
